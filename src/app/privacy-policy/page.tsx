@@ -12,7 +12,7 @@ import { log } from "console";
 export default function PrivacyPolicy() {
     return (
         <>
-            <section class="container"
+            <section className="container"
             style={{
         maxWidth: '1000px',
         margin: '0 auto',
