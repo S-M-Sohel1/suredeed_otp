@@ -25,7 +25,7 @@ export default function ProductsAndServices() {
             `}</style>
 
             <section className="container">
-                <h1 class="text-center large-text"><b>Sure Deed: Products and Services</b></h1>
+                <h1 className="text-center large-text"><b>Sure Deed: Products and Services</b></h1>
                 <p>Sure Deed is Bangladesh’s No. 1 Smart Land & Legal Services Platform, designed to make complex land and legal document processes simple and accessible from the comfort of your home. Our services cover a broad range of property and legal needs, tailored to ensure you can handle all your land-related tasks with ease.</p>
 
                 <h2>1. Khatiyan Sheba (Record of Rights)</h2>
