@@ -32,7 +32,7 @@ export default function PrivacyPolicy() {
             `}</style>
 
             <section className="container">
-                <h1 class="text-center large-text"><b>Terms and Conditions</b></h1>
+                <h1 className="text-center large-text"><b>Terms and Conditions</b></h1>
                 <p>Last updated: October 15, 2024</p>
 
                 <p>Welcome to Sure Deed! These terms and conditions ("Terms") govern your access to and use of the Sure Deed website (www.suredeed.com), mobile app, and related services ("Services"). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree with these Terms, you must not use our Services.</p>

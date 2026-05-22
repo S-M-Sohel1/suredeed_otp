@@ -25,7 +25,7 @@ export default function RefundPolicy() {
             `}</style>
 
             <section className="container">
-                <h1 class="text-center large-text"><b>Refund Policy</b></h1>
+                <h1 className="text-center large-text"><b>Refund Policy</b></h1>
                 <p>Last updated: October 15, 2024</p>
 
                 <p>At Sure Deed, we are committed to providing quality land and legal services. This Refund Policy outlines the conditions under which refunds may be granted for services purchased through our website or mobile app.</p>

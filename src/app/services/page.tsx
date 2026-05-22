@@ -34,8 +34,9 @@ const poppins = Poppins(
     }
 );
 interface Service {
-    title:String;
-    icon: StaticImageData
+    title: string;
+    icon: StaticImageData;
+    description: string;
 }
 const services: Service[] = [
     {
@@ -128,7 +129,7 @@ export default function Services() {
       const [isModalOpen, setIsModalOpen] = useState(false);
     const [selectedService, setSelectedService] = useState({ title: "", description: "" });
 
-    const handleServiceClick = (service) => {
+    const handleServiceClick = (service: Service) => {
         setSelectedService(service);
         setIsModalOpen(true);
     };
@@ -198,7 +199,3 @@ function  ServiceCard({ service, onClick }: { service: Service; onClick: () => v
         </>
     );
 }
-
-{services.map((service, index) => (
-    <ServiceCard service={service} onClick={() => handleServiceClick(service)} key={index} />
-))}
