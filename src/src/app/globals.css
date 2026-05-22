@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+@media (min-width : 1024px) {
+  .modal {
+  
+      background : url("../assets/images/illustration-woman-online-desktop.svg") -90px 50px no-repeat,  url("../assets/images/bg-pattern-desktop.svg") -580px 75% no-repeat;
+      background-color : white;
+  
+  }
+  
+  }
+  
+  @media(max-width : 1023px){
+  
+      .modal {
+  
+          background :  url("../assets/images/bg-pattern-mobile.svg") 50% 0px no-repeat;
+          background-color : white;
+      
+      }
+  
+  }
+  
+  .border-bottom {
+  
+      border-bottom : 1px solid #C6CAC8;
+  
+  }
+  
+  .active {
+      transform : rotate(-180deg);
+  }
+  
+  
+  .dark-blue {
+  
+      color : hsl(238, 29%, 16%);
+  
+  }
+  
+  .light-red:hover {
+  
+      color : hsl(14, 88%, 65%);
+  }
+  
+  .dark-gray {
+  
+      color : hsl(240, 6%, 50%);
+  
+  }
